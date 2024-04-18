@@ -1,0 +1,59 @@
+.container {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+main {
+
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.main {
+
+    height: 82vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.main article {
+
+    width: 90%;
+    font-size: 20px;
+
+}
+
+.main .media {
+
+    height: 70%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.main .media video, .main .media figure  {
+
+    height: 50%;
+    width: 30%;
+    overflow: hidden;
+
+}
+
+.main .media figure img  {
+
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+}

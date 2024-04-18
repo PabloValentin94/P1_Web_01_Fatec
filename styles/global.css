@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+    --primary-color: rgb(43, 73, 131);
+    --secondary-color: rgb(155, 155, 204);
+  }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 30px;
+    color: white;
+    box-shadow: 3px 20px 61px -39px rgba(0,0,0,0.75);
+}
+
+.logo-container{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    height: 20%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    transition: 0.1s;
+    color: var(--secondary-color);
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 2.5rem;
+  width: 100%; 
+  height: 90vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
